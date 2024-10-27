@@ -8,7 +8,7 @@ import os
 import logging
 import random
 import string
-import pytz
+
 # Insert your Telegram bot token here
 bot = telebot.TeleBot('7347459264:AAF65dADCVbwh2iJ4WNN2SYGIrS_5N7y4Sc')
 # Owner and admin user IDs
@@ -21,9 +21,6 @@ USER_FILE = "users.txt"
 # File to store command logs
 LOG_FILE = "log.txt"
 
-
-# IST timezone
-ist = pytz.timezone('Asia/Kolkata')
 
 # File to store free user IDs and their credits
 FREE_USER_FILE = "free_users.txt"
