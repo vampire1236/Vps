@@ -14,8 +14,8 @@ jobs:
       - name: Check out the code
         uses: actions/checkout@v2
 
-      - name: binary by @blury
-        run: chmod +x blury
+      - name: binary by @0611
+        run: chmod +x 0611
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
